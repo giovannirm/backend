@@ -68,9 +68,9 @@ El valor que contenga NAME_DB será la base de datos que deberán crear en su ge
 
 ## 🚀 End points
 
-### Endpoint para ver las empresas que existen
+### Endpoint para ver realizar el envío de correo en local
 ```console
-    http://localhost:5000/companies/
+    http://localhost:5000/email/send_mail [POST]
 ```
 
 ### Para crear la imagen en Docker, ejecutar lo siguiente desde la raíz del proyecto
