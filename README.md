@@ -13,7 +13,7 @@
 
 ### Modificar el archivo .env_copy por .env
 
-Agregar sus credenciales user_db, password y name_db en el archivo .env
+Agregar sus credenciales en el archivo .env
 
 ```bash
     SECRET_KEY="your-secret-key"
@@ -73,6 +73,7 @@ El valor que contenga NAME_DB será la base de datos que deberán crear en su ge
     http://localhost:5000/email/send_mail [POST]
 ```
 
+## OPCIONAL
 ### Para crear la imagen en Docker, ejecutar lo siguiente desde la raíz del proyecto
 
 ```console

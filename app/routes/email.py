@@ -24,7 +24,8 @@ def send_mail():
         email = Email(sender, recipient, subject, body)
         db.session.add(email)
 
-        msg = Message(sender=sender, recipients=[recipient], subject=subject, body=body)
+        msg = Message(sender=sender, recipients=[recipient], subject=subject)
+        msg.html = body
         mail.send(msg)
 
         db.session.commit()
